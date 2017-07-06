@@ -1,0 +1,166 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.clear {
+  clear: both;
+}
+.header {
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #495867;
+  color: #fff;
+  height: 160px
+}
+
+.wrapper {
+  margin: 215px auto 0;
+  width: 900px;
+}
+
+.header hr {
+    width: 20%;
+    border: 3px solid #fff;
+    color: #fff;
+}
+
+hr {
+  color: #BDD5EA;
+}
+
+h1 {
+  font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+  text-transform: uppercase;
+  font-size: 65px;
+  line-height: 5px;
+  text-align: center;
+  font-weight: 300;
+
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 25px;
+  letter-spacing: 11px;
+  text-align: center;
+}
+h3,
+h4 {
+  color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p {
+  font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+  line-height: 25px;
+}
+.box-model {
+  padding: 20px;
+  border: 10px solid #000;
+  margin: 20px 7px 20px 7px;
+  font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+  line-height: 30px;
+}
+
+
+.block,
+.inline,
+.inline-block {
+  background-color: #BDD5EA;
+  padding: 20px;
+  width: 100px;
+  margin: 10px;
+}
+
+.block {
+  display: block;
+}
+
+.inline {
+  display: inline;
+}
+.inline-block {
+  display: inline-block;
+}
+
+.div1,
+.div2,
+.div3 {
+  float: left;
+  width: 30%;
+  margin: 0 10px;
+}
+
+.typsetting {
+  clear: both;
+  width: 50%;
+  margin: 30px auto;
+  padding: 0px 0px 20px 0px
+}
+
+blockquote {
+    margin: 0;
+    font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+    line-height: 30px;
+}
+
+#quote-bar {
+    width: 45px;
+    border: 5px solid #FE5F55;
+    float: left;
+    color: #FE5F55;
+    margin-bottom: 20px;
+}
+
+#quote-head {
+  font-style: italic;
+}
+
+#author {
+  float: right;
+}
+
+#bottom {
+  padding: 10px;
+}
+
+.fancy-text img {
+  float: left;
+  width: 100px;
+  margin: 0 30px 0 0;
+}
+
+p.fancy-body {
+  font-size: 3em;
+  line-height: 60px;
+  width: 80%;
+}
+
+h4 {
+  color: red;
+}
+
+
+li {
+  color: red;
+}
+
+ul {
+  color: green;
+}
+#yellow {
+  color: yellow;
+}
+
+.purple {
+  color: purple;
+}
